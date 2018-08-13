@@ -14,7 +14,7 @@ use yii\helpers\Url;
         <h2>Welcome to the Query Administration and Monitoring System</h2>
    		<p class="lead">Please, Session Session to continue</p>
    		<br />
-   		<img src="/images/monitoreo.png" title="Sistema de Administracion y Monitoreo de Querys">
+   		<img src="/images/monitoreo.png" title="Query Management and Monitoring System">
    		<br/>
    		<br/>
    		<?php $mens = ActiveForm::begin([
