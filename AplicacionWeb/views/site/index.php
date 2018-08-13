@@ -11,10 +11,10 @@ use yii\helpers\Url;
 <div class="site-index">
 
     <div class="jumbotron">
-        <h2>Bienvenido al Sistema de Administracion y Monitoreo de Querys</h2>
-   		<p class="lead">Por favor, Inicie Sesion para continuar</p>
+        <h2>Welcome to the Query Administration and Monitoring System</h2>
+   		<p class="lead">Please, Session Session to continue</p>
    		<br />
-   		<img src="/images/monitoreo.png" title="Sistema de Administracion y Monitoreo de Querys">
+   		<img src="\images\monitoreo.png" title="Sistema de Administracion y Monitoreo de Querys">
    		<br/>
    		<br/>
    		<?php $mens = ActiveForm::begin([
@@ -24,7 +24,7 @@ use yii\helpers\Url;
 		]);
 		?>
 				
-			<?= Html::submitButton("Ingresar al Sistema",["class" => "btn btn-success"])?>
+			<?= Html::submitButton("Enter the System",["class" => "btn btn-success"])?>
 
 		<?php $mens->end() ?>
 				    </div>

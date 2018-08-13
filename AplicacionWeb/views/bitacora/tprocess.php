@@ -27,15 +27,15 @@
 	<?= $p->field($formf, 'date')->widget(DatePicker::classname(), [
 	       'name' => 'date', 
 		'value' => date('yyyy-mm-dd'),
-		'options' => ['placeholder' => 'Seleccione la fecha...'],
+		'options' => ['placeholder' => 'Select the date...'],
 		'pluginOptions' => [
 			'format' => 'yyyy-mm-dd',
 			'todayHighlight' => true
 	        ]
 	    ]);?>
-	<?= Html::submitButton("Buscar",["class" => "btn btn-primary" ])?>
+	<?= Html::submitButton("Search",["class" => "btn btn-primary" ])?>
 
-	<a id="todos" class="btn  btn-success" href="<?= Url::toRoute(["tprocess"])?>">Mostrar Todos </a>
+	<a id="todos" class="btn  btn-success" href="<?= Url::toRoute(["tprocess"])?>">See All</a>
 	<?php $p->end() ?>
 
 	</div>
@@ -46,7 +46,7 @@
         color: #337ab7;
       }
       #tiempo{
-      	width: 5%;
+      	width: 8%;
         color: #337ab7;
       }
       #fecha{
@@ -62,11 +62,11 @@
 		<th style="color:#337ab7">Hostname</th>
 		<th style="color:#337ab7">DataBase</th>
 		<th style="color:#337ab7">Status</th>
-		<th style="color:#337ab7">Memoria</th>
+		<th style="color:#337ab7">Memory</th>
 		<th id="query">Query</th>
-		<th id="tiempo">Tiempo de Ejecucuion (S)</th>
-		<th id="fecha">Fecha de Ultima Ocurrencia</th>
-		<th style="color:#337ab7">Opciones</th>
+		<th id="tiempo">Execution time</th>
+		<th id="fecha">Last Time</th>
+		<th style="color:#337ab7">Options</th>
 	</tr>
 	<?php foreach($model as $row):
 		// tomamos y asignamos los datos por cada columna // 

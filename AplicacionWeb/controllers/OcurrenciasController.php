@@ -87,10 +87,10 @@ class OcurrenciasController extends Controller
         //MODELO -> NOMBRE DE LOS INPUT = CONEXION -> COLUMNA A ASIGNAR//
           $model->IdQuery = $table->IdQuery;
           $model->C_P_U = $table->cpu;
-          $model->memoria = $table->usedmemory;
+          $model->memory = $table->usedmemory;
           $model->query = $table->sqlcommand;
-          $model->transcurso_de_tiempo = $table->wait;
-          $model->Fecha_Ocurrencia = $table->FechaO;
+          $model->step_of_time = $table->wait;
+          $model->Date_Ocurrence = $table->FechaO;
         }
       }
     }

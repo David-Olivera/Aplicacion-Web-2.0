@@ -119,10 +119,10 @@ class BitacoraController extends Controller
 					$model->hostname = $table->hostname;
 					$model->dataBase = $table->databasename;
 					$model->status = $table->status;
-					$model->memoria = $table->usedmemory;
+					$model->memory = $table->usedmemory;
 					$model->query = $table->sqlcommand;
-          $model->transcurso_de_tiempo = $table->wait;
-          $model->Fecha_Ocurrencia = $table->FechaQ;
+          $model->step_of_time = $table->wait;
+          $model->Date_Ocurrence = $table->FechaQ;
 				}
 			}
 		}

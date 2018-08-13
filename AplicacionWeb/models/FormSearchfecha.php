@@ -17,7 +17,7 @@
 		public function attributeLabels()
 		{
 			return[
-			'date' => "Buscar :  ",
+			'date' => "Search :  ",
 			];
 		}
 	}

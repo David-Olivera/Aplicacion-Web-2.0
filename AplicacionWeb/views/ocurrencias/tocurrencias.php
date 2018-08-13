@@ -16,7 +16,7 @@
         color: #337ab7;
       }
       #tiem-memo{
-      	width: 5%;
+      	width: 8%;
         color: #337ab7;
       }
       #opciones{
@@ -28,10 +28,10 @@
 	<tr bgcolor="#FFFFFF">
 		<th style="color:#337ab7">CPU</th>
 		<th id="query">Query</th>
-		<th id="tiem-memo">Tiempo Transcurrido(S)</th>
-		<th id="tiem-memo">Memoria utilizada</th>
-		<th style="color:#337ab7">Fecha Ocurrencia</th>
-		<th id="opciones">Opciones</th>
+		<th id="tiem-memo">Execution time</th>
+		<th id="tiem-memo">Memory used</th>
+		<th style="color:#337ab7">Last Time</th>
+		<th id="opciones">Options</th>
 	</tr>
 	<?php foreach($model as $row): ?>
 		<tr id="colum" >

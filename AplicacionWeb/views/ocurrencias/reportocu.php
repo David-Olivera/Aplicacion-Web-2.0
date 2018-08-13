@@ -31,7 +31,7 @@
 					'enableClientValidation' => true,
 				]);
 				?>
-				<h2>Reporte de Ocurrencia</h2>
+				<h2>Report of Occurrence</h2>
 				
 				<?= $form->field($model, "IdQuery")->input("hidden")->label(false) ?>
 
@@ -40,14 +40,14 @@
 				<?= $form->field($model, "C_P_U")->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
 				</div>	
 				<div class="col-md-3" class ="form-group">
-					<?= $form->field($model, 'transcurso_de_tiempo')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
+					<?= $form->field($model, 'step_of_time')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
 				</div>
 				<div class="col-md-3"  class ="form-group">
-					<?= $form->field($model, 'memoria')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
+					<?= $form->field($model, 'memory')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
 				</div>
 				<div class="col-md-3"  class ="form-group">
 					
-					<?= $form->field($model, 'Fecha_Ocurrencia')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
+					<?= $form->field($model, 'Date_Ocurrence')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
 				</div>
 
 				<div class ="form-group">

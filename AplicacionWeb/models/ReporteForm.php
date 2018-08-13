@@ -10,13 +10,12 @@ class ReporteForm extends Model
 		public $hostname;
 		public $dataBase;
 		public $status;
-		public $memoria;
+		public $memory;
 		public $query;
-		public $Comentarios;
-		public $transcurso_de_tiempo;
-		public $Fecha_Ocurrencia;
-		public $FechaC;
-		public $Memoria_Total;	
+		public $Comments;
+		public $step_of_time;
+		public $Date_Ocurrence;
+		public $Memory_Total;	
 	public function rules()
 	{
 		return[

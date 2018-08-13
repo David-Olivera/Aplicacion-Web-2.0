@@ -20,7 +20,7 @@
 	<div class="input-sm">
 		<div  style="width: 50%"   class="panel panel-default col-md-7">
 			<div class="panel-body">
-				<h2>Reporte de Registro</h2>
+				<h2>Report of Register</h2>
 				<?php $form = ActiveForm::begin([
 					"method" => "post",
 					// accion del formulario ("controlador/funcion")//
@@ -41,10 +41,10 @@
 					<?= $form->field($model, "status")->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled'])?>
 				</div>
 				<div class="col-md-3"  class ="form-group">
-					<?= $form->field($model, 'memoria')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
+					<?= $form->field($model, 'memory')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
 				</div>
 				<div class="col-md-6" class ="form-group">
-					<?= $form->field($model, 'transcurso_de_tiempo')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
+					<?= $form->field($model, 'step_of_time')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
 				</div>
 				<div   class="col-md-6" class ="form-group">
 					<?= $form->field($model, "dataBase")->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled'])?>
@@ -52,7 +52,7 @@
 	
 				<div class ="form-group">
 					
-					<?= $form->field($model, 'Fecha_Ocurrencia')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
+					<?= $form->field($model, 'Date_Ocurrence')->textInput(['class' => 'form-control class-content-proceso', 'disabled' => 'disabled']) ?>
 				</div>
 
 				<div class ="form-group">
@@ -64,7 +64,7 @@
 		</div>
 		<div  style="width: 50%" class="panel panel-default col-md-7">
 			<div class="content container-fluid" class="panel-body">
-				<h2>Comentarios</h2><br>
+				<h2>Comments</h2><br>
 				<div data-spy="scroll" data-target =".navbar" data-offset="2">
 				<?php 
 				// consulta con todos los comentarios relacionados con el id del query del registro seleccionado 
@@ -91,7 +91,7 @@
 				?>
 				<div class="form-group">
 			 		
-			 		<?= $mens->field($model, "Comentarios")->textArea(['value' => null]) ?>   
+			 		<?= $mens->field($model, "Comments")->textArea(['value' => null]) ?>   
 			 		
 				</div>
 					

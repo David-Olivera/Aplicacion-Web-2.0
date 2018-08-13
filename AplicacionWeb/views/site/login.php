@@ -10,9 +10,9 @@ use yii\bootstrap\ActiveForm;
 $this->title = 'Login';
 ?>
 <div class="site-login">
-    <h1 style="margin-left:25px">Inicio de Sesion</h1>
+    <h1 style="margin-left:25px">Login</h1>
 
-    <p style="margin-left:25px">Por favor complete los siguientes campos para iniciar:</p>
+    <p style="margin-left:25px">Please complete the following fields to start</p>
     <?php $form = ActiveForm::begin([
         'id' => 'login-form',
         'layout' => 'horizontal',

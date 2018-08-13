@@ -8,9 +8,9 @@ class ReporteFormocu extends Model
 		public $IdQuery;
 		public $C_P_U;
 		public $query;
-		public $transcurso_de_tiempo;
-		public $memoria;
-		public $Fecha_Ocurrencia;
+		public $step_of_time;
+		public $memory;
+		public $Date_Ocurrence;
 	public function rules()
 	{
 		return[

@@ -27,11 +27,11 @@ class LoginForm extends Model
     public function rules()
     {
         return [
-            ['username', 'required', 'message' => 'Campo requerido'],
+            ['username', 'required'],
             // rememberMe must be a boolean value
             ['rememberMe', 'boolean'],
             // password is validated by validatePassword()
-            ['password', 'required', 'message' => 'Campo requerido'],
+            ['password', 'required'],
         ];
     }
 
